@@ -1,1 +1,25 @@
+:root{
+    font-size: 16px;
+}
 
+.responsive{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+@media (max-width: 800px) and (min-width: 600px){
+    .responsive{
+        background-color: blueviolet;
+        font-size: 0.70rem;
+    }
+}
+
+@media (max-width: 1200) and (min-width: 801px){
+    .responsive{
+        width: 200px;
+        height: 200px;
+        background-color: cornflowerblue;
+        font-size: 1.2rem;
+    }
+}
